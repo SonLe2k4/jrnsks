@@ -1,0 +1,15 @@
+.logo-wrapper {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 22px;
+
+    width: 200px;
+
+    font-weight: 600;
+    text-align: center;
+
+    > img {
+        width: 100%;
+    }
+}

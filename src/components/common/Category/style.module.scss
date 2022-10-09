@@ -1,0 +1,13 @@
+.select-box {
+    &__value {
+        display: flex;
+    }
+    &__input {
+    }
+    &__input-text {
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+        background-color: #fff;
+    }
+}

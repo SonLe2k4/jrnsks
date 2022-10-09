@@ -1,0 +1,65 @@
+.wp-header {
+    // padding: 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: var(--width-header);
+    .header-right,
+    .header-left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-right {
+        height: 40px;
+    }
+
+    .header-social {
+        margin-right: 20px;
+
+        .link-social {
+            width: 40px;
+            height: 40px;
+            margin-right: 8px;
+            border-radius: 50%;
+            border: 1px solid rgba(29, 37, 71, 0.12);
+
+            &:hover > .icon {
+                transform: rotateY(180deg);
+                color: var(--primary-color);
+            }
+        }
+
+        .icon {
+            transition: all 0.3s linear;
+        }
+    }
+    .header-search {
+        height: 100%;
+        > ul {
+            height: 100%;
+            > li {
+                &.search {
+                    background-color: #f6f8fe;
+                    cursor: pointer;
+                    margin-right: 15px;
+                }
+                border-radius: 999px;
+                height: 100%;
+                min-width: 40px;
+                &.cart {
+                    width: 70px;
+                    cursor: pointer;
+                    background-color: var(--primary-color);
+                    color: #fff;
+                }
+                .quantity,
+                .icon {
+                    padding: 4px;
+                }
+            }
+        }
+    }
+}
