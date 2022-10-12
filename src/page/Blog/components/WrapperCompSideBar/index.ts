@@ -1,3 +1,3 @@
-import WrapperCompSideBar from "./WrapperCompSideBar";
+import WrapperCompSideBar from './WrapperCompSideBar';
 
-export default WrapperCompSideBar
+export default WrapperCompSideBar;

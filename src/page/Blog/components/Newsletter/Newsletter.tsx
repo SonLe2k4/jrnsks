@@ -8,9 +8,11 @@ const cx = classNames.bind(style);
 type Props = {};
 
 const Newsletter = (props: Props) => {
-    return <div className={cx('wrapper-Newsletter')}>
-        <Input placeholder='Enter email' contentButtonLargeBottom='subscribe'/>
-    </div>;
+    return (
+        <div className={cx('wrapper-Newsletter')}>
+            <Input placeholder='Enter email' contentButtonLargeBottom='subscribe' />
+        </div>
+    );
 };
 
 export default Newsletter;

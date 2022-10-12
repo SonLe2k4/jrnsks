@@ -7,17 +7,17 @@ const ListItemBlog = [
         id: v4(),
         img: {
             srcThumb: image.blog.itemBlog.img_1,
-            date: { day: '15', link: '/', months: 'Jan' },
+            date: { day: '15', link: '#', months: 'Jan' },
         },
         info: {
             title: 'Google inks pact for new 35-storey office',
             des: `That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.`,
             cmnt: {
                 commentCount: '3',
-                link: '/',
+                link: '#',
             },
             post: {
-                link: '/',
+                link: '#',
                 postBy: '__SonLe__',
             },
         },
@@ -26,17 +26,17 @@ const ListItemBlog = [
         id: v4(),
         img: {
             srcThumb: image.blog.itemBlog.img_2,
-            date: { day: '15', link: '/', months: 'Jan' },
+            date: { day: '15', link: '#', months: 'Jan' },
         },
         info: {
             title: 'Google inks pact for new 35-storey office',
             des: `That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.`,
             cmnt: {
                 commentCount: '3',
-                link: '/',
+                link: '#',
             },
             post: {
-                link: '/',
+                link: '#',
                 postBy: '__SonLe__',
             },
         },
@@ -45,17 +45,17 @@ const ListItemBlog = [
         id: v4(),
         img: {
             srcThumb: image.blog.itemBlog.img_3,
-            date: { day: '15', link: '/', months: 'Jan' },
+            date: { day: '15', link: '#', months: 'Jan' },
         },
         info: {
             title: 'Google inks pact for new 35-storey office',
             des: `That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.`,
             cmnt: {
                 commentCount: '3',
-                link: '/',
+                link: '#',
             },
             post: {
-                link: '/',
+                link: '#',
                 postBy: '__SonLe__',
             },
         },
@@ -64,17 +64,17 @@ const ListItemBlog = [
         id: v4(),
         img: {
             srcThumb: image.blog.itemBlog.img_4,
-            date: { day: '15', link: '/', months: 'Jan' },
+            date: { day: '15', link: '#', months: 'Jan' },
         },
         info: {
             title: 'Google inks pact for new 35-storey office',
             des: `That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.`,
             cmnt: {
                 commentCount: '3',
-                link: '/',
+                link: '#',
             },
             post: {
-                link: '/',
+                link: '#',
                 postBy: '__SonLe__',
             },
         },
@@ -83,17 +83,17 @@ const ListItemBlog = [
         id: v4(),
         img: {
             srcThumb: image.blog.itemBlog.img_5,
-            date: { day: '15', link: '/', months: 'Jan' },
+            date: { day: '15', link: '#', months: 'Jan' },
         },
         info: {
             title: 'Google inks pact for new 35-storey office',
             des: `That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.`,
             cmnt: {
                 commentCount: '3',
-                link: '/',
+                link: '#',
             },
             post: {
-                link: '/',
+                link: '#',
                 postBy: '__SonLe__',
             },
         },

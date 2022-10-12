@@ -1,3 +1,3 @@
-import AreaLink from "./AreaLink";
+import AreaLink from './AreaLink';
 
-export default AreaLink
+export default AreaLink;

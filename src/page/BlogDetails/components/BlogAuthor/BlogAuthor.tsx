@@ -10,7 +10,7 @@ const BlogAuthor = (props: Props) => {
                 <img src={image.blogDetails.avatar.img_1} alt='' />
             </div>
             <div className={cx('introduce')}>
-                <a href='/' className={cx('name')}>
+                <a href='#' className={cx('name')}>
                     Harvard milan
                 </a>
                 <p className={cx('des')}>

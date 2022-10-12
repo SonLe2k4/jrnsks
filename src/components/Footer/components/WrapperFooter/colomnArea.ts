@@ -15,17 +15,17 @@ const columnArea: {
         items: [
             {
                 id: v4(),
-                link: '/',
+                link: '#',
                 text: 'Image Licensin',
             },
             {
                 id: v4(),
-                link: '/',
+                link: '#',
                 text: 'Style Guide',
             },
             {
                 id: v4(),
-                link: '/',
+                link: '#',
                 text: 'Privacy Policy',
             },
         ],
@@ -36,17 +36,17 @@ const columnArea: {
         items: [
             {
                 id: v4(),
-                link: '/',
+                link: '#',
                 text: 'Image Licensin',
             },
             {
                 id: v4(),
-                link: '/',
+                link: '#',
                 text: 'Style Guide',
             },
             {
                 id: v4(),
-                link: '/',
+                link: '#',
                 text: 'Privacy Policy',
             },
         ],
@@ -57,17 +57,17 @@ const columnArea: {
         items: [
             {
                 id: v4(),
-                link: '/',
+                link: '#',
                 text: 'Image Licensin',
             },
             {
                 id: v4(),
-                link: '/',
+                link: '#',
                 text: 'Style Guide',
             },
             {
                 id: v4(),
-                link: '/',
+                link: '#',
                 text: 'Privacy Policy',
             },
         ],
@@ -78,17 +78,17 @@ const columnArea: {
         items: [
             {
                 id: v4(),
-                link: '/',
+                link: '#',
                 text: '(89) 982-278 356',
             },
             {
                 id: v4(),
-                link: '/',
+                link: '#',
                 text: 'demo@colorlib.com',
             },
             {
                 id: v4(),
-                link: '/',
+                link: '#',
                 text: '67/A, Colorlib, Green road, NYC',
             },
         ],

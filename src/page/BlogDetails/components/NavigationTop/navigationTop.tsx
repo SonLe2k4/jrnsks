@@ -5,7 +5,7 @@ import NavigationArea from '../SinglePost/components/navigationArea';
 import style from './style.module.scss';
 type Props = {};
 const cx = classNames.bind(style);
-const navigationTop = (props: Props) => {
+const NavigationTop = (props: Props) => {
     return (
         <div className={cx('wrapper-navigation-top')}>
             <div className={cx('top')}>
@@ -21,4 +21,4 @@ const navigationTop = (props: Props) => {
     );
 };
 
-export default navigationTop;
+export default NavigationTop;

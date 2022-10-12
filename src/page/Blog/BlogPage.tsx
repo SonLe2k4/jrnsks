@@ -1,6 +1,8 @@
 import classNames from 'classnames/bind';
 import { v4 } from 'uuid';
 import NotificationPage from '../../components/common/NotificationPage';
+import Pagination from '../../components/common/Pagination';
+import LayoutTwoOne from '../../layout/components/LayoutTwoOne';
 import DefaultLayout from '../../layout/DefaultLayout';
 import BlogItem from './components/BlogItem';
 import InstagramFeed from './components/InstagramFeed';
@@ -40,32 +42,35 @@ const BlogPage = (props: Props) => {
     };
 
     const renderItemBlogComp = () => {
-        return ListItemBlog.map((item) => <BlogItem key={item.id} data={item} />);
+        return (
+            <>
+                {ListItemBlog.map((item) => (
+                    <BlogItem key={item.id} data={item} />
+                ))}
+                <Pagination />
+            </>
+        );
     };
 
     return (
         <DefaultLayout exclude={['Body', 'Slider', 'Navigation']} childrenPosition={1}>
+            <NotificationPage
+                listNotificationPage={[
+                    {
+                        id: v4(),
+                        link: '/',
+                        text: 'Home',
+                    },
+                    {
+                        id: v4(),
+                        link: '/blog',
+                        text: 'Blog',
+                    },
+                ]}
+                className={cx('mt-header')}
+            />
             <div className={cx('container-body-blog_page')}>
-                <NotificationPage
-                    listNotificationPage={[
-                        {
-                            id: v4(),
-                            link: '/',
-                            text: 'Home',
-                        },
-                        {
-                            id: v4(),
-                            link: '/blog',
-                            text: 'Blog',
-                        },
-                    ]}
-                />
-                <div className={cx('wrapper-blog')}>
-                    <div className={cx('left')}>{renderItemBlogComp()}</div>
-                    <div className={cx('right')}>
-                        {renderComps()}
-                    </div>
-                </div>
+                <LayoutTwoOne col_2={renderItemBlogComp()} col_1={renderComps()} />
             </div>
         </DefaultLayout>
     );

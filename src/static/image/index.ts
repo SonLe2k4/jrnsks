@@ -65,10 +65,17 @@ const image = {
             img_1: require('../image/blogDetails/60x60/img-1.png'),
             img_2: require('../image/blogDetails/60x60/img-2.png'),
         },
-        avatar: {
+        'avatar': {
             img_1: require('../image/blogDetails/avatarBlog/img-1.png'),
-
-        }
+        },
+        'avatarUserComment': {
+            img_1: require('../image/blogDetails/avatarUserComment/img-1.png'),
+            img_2: require('../image/blogDetails/avatarUserComment/img-2.png'),
+            img_3: require('../image/blogDetails/avatarUserComment/img-3.png'),
+        },
+    },
+    productDetails: {
+        map: require('../image/productDetails/map.png'),
     },
 };
 

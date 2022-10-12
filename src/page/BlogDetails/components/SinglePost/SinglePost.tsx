@@ -16,7 +16,7 @@ const SinglePost = (props: Props) => {
                 <h2>Second divided from form fish beast made every of seas all gathered us saying he our</h2>
                 <div className={cx('wrapper-link-info')}>
                     <AreaLink
-                        data={{ user: { name: '__SonLe__2k4', link: '/' }, comment: { link: '/', quantity: '5' } }}
+                        data={{ user: { name: '__SonLe__2k4', link: '#' }, comment: { link: '#', quantity: '5' } }}
                     />
                 </div>
                 <p>

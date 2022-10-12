@@ -31,13 +31,12 @@ const Slider = (props: ISliderProps) => {
     const listBrSlider: IListBrSlider[] = useMemo<{ src: string; title: string }[]>(() => {
         if (listImageSlider) return listImageSlider;
         return [
-            { src: image.slider.image_1, title: 'slider content 1', link: '/' },
-            { src: image.slider.image_2, title: 'slider content 2', link: '/' },
-            { src: image.slider.image_3, title: 'slider content 3', link: '/' },
-            { src: image.blog.itemBlog.img_1, title: 'slider content 4', link: '/' },
-            { src: image.blog.itemBlog.img_2, title: 'slider content 5', link: '/' },
-            { src: image.blog.itemBlog.img_3, title: 'slider content 6', link: '/' },
-
+            { src: image.slider.image_1, title: 'slider content 1', link: '#' },
+            { src: image.slider.image_2, title: 'slider content 2', link: '#' },
+            { src: image.slider.image_3, title: 'slider content 3', link: '#' },
+            { src: image.blog.itemBlog.img_1, title: 'slider content 4', link: '#' },
+            { src: image.blog.itemBlog.img_2, title: 'slider content 5', link: '#' },
+            { src: image.blog.itemBlog.img_3, title: 'slider content 6', link: '#' },
         ];
     }, [listImageSlider]);
 
@@ -114,7 +113,7 @@ const Slider = (props: ISliderProps) => {
                         <div className={cx('hero_caption')}>
                             <h1 style={stylingTitle}>{listBrSlider[indexImgSlider].title || ''}</h1>
                             <div className={cx('wrapper_button')}>
-                                <Button primary={true} hoverEffect={1} to={listBrSlider[indexImgSlider].link || '/'}>
+                                <Button primary={true} hoverEffect={1} to={listBrSlider[indexImgSlider].link || '#'}>
                                     {text_btn || 'show more'}
                                 </Button>
                             </div>

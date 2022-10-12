@@ -1,0 +1,19 @@
+.wrapper-layout-2-1 {
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+
+    .col_1,
+    .col_2 {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .col_2 {
+        max-width: calc((100% / 3) * 2);
+    }
+    .col_1 {
+        max-width: calc((100% / 3) * 1);
+    }
+}

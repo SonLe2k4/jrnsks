@@ -1,33 +1,61 @@
-.wrapper-blog-author {
-    padding: 40px 30px;
-    background: #fbf9ff;
-    margin-top: 50px;
+.wrapper-item-comment {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-bottom: 48px;
     .avatar {
-        --size: 90px;
+        margin-right: 20px;
+        --size: 70px;
         width: var(--size);
         height: var(--size);
-
-        margin-right: 30px;
     }
-    .introduce {
-        .name {
-            font-size: 16px;
-            font-family: 'Cinzel', serif;
-            color: #140c40;
-            margin-top: 0;
-            font-style: normal;
-            font-weight: 500;
-            text-transform: uppercase;
+    .text-area {
+        flex: 1;
+        .top {
+            width: 100%;
+            > p {
+                padding-right: 20px;
+                margin-bottom: 10px;
+            }
         }
-        .des {
-            margin-bottom: 0;
-            font-size: 15px;
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+            .jam {
+                display: flex;
+                align-items: center;
+                .name {
+                    transition: 0.4s;
+                    font-size: 16px;
+                    color: #646d77;
 
-            line-height: 1.4;
-            font-family: 'Poppins', sans-serif;
-            color: #646d77;
+                    font-weight: 100;
+
+                    font-family: 'Cinzel', serif;
+                    &:hover {
+                        color: var(--primary-color);
+                    }
+                }
+                .date {
+                    margin-left: 20px;
+                    margin-bottom: 0;
+                }
+            }
+            .reply {
+                display: block;
+                padding: 5px 18px;
+
+                color: #888;
+                font-size: 14px;
+                font-weight: 400;
+
+                transition: 0.4s;
+
+                text-transform: uppercase !important;
+                &:hover {
+                    color: var(--primary-color);
+                }
+            }
         }
     }
 }

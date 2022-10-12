@@ -61,6 +61,14 @@
                 pointer-events: visible;
                 top: 100%;
             }
+            &:hover p,
+            &:hover .icon-more,
+            &:hover > a {
+                color: var(--primary-color) !important;
+            }
+            .icon-more {
+                transition: all 0.3s ease;
+            }
             position: relative;
             > .item-content,
             > p,
@@ -70,19 +78,18 @@
                 transition: all 0.4s linear;
                 text-transform: uppercase;
                 color: #1d2547;
-                font-weight: 500;
+                font-weight: 600;
                 font-size: 15px;
                 cursor: pointer;
-
-                &:hover {
-                    color: var(--primary-color);
-                }
             }
             .item-content {
                 > p {
                     font-weight: 600;
+                    color: #1d2547;
+                    transition: all 0.3s ease;
                     font-size: 15px;
                     margin-bottom: 0;
+                    transform: translateY(0.5px);
                 }
             }
         }

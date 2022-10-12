@@ -1,3 +1,3 @@
-import InstagramFeed from "./InstagramFeed";
+import InstagramFeed from './InstagramFeed';
 
-export default InstagramFeed
+export default InstagramFeed;

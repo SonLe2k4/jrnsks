@@ -6,10 +6,10 @@ type Props = {};
 const cx = classNames.bind(style);
 const SocialIcon = (props: Props) => {
     const SocialIcons = [
-        { id: v4(), link: '/', icon: <FaFacebookF /> },
-        { id: v4(), link: '/', icon: <FaTwitter /> },
-        { id: v4(), link: '/', icon: <FaDribbble /> },
-        { id: v4(), link: '/', icon: <FaBehance /> },
+        { id: v4(), link: '#', icon: <FaFacebookF /> },
+        { id: v4(), link: '#', icon: <FaTwitter /> },
+        { id: v4(), link: '#', icon: <FaDribbble /> },
+        { id: v4(), link: '#', icon: <FaBehance /> },
     ];
 
     const renderSocialIcon = () =>

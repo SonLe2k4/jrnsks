@@ -14,7 +14,9 @@ import WrapperCompSideBar from './components/WrapperCompSideBar';
 
 import style from './style.module.scss';
 import BlogAuthor from './components/BlogAuthor';
-import CommentArea from './components/CommentArea/CommentArea';
+import CommentArea from './components/CommentArea';
+import listFeedBack from './components/comments';
+import CommentForm from '../../components/common/CommentForm';
 
 type Props = {};
 const cx = classNames.bind(style);
@@ -68,13 +70,8 @@ const BlogPage = (props: Props) => {
                         <SinglePost />
                         <NavigationTop />
                         <BlogAuthor />
-                        {/* <CommentArea 
-                            data={[
-                                {
-
-                                }
-                            ]}
-                        /> */}
+                        <CommentArea data={listFeedBack} />
+                        <CommentForm />
                     </div>
                     <div className={cx('right')}>{renderComps()}</div>
                 </div>

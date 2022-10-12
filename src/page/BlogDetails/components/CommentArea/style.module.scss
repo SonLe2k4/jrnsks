@@ -1,33 +1,12 @@
-.wrapper-blog-author {
-    padding: 40px 30px;
-    background: #fbf9ff;
+.wrapper-comment-area {
+    padding: 45px 0;
     margin-top: 50px;
-    display: flex;
-    align-items: center;
-    .avatar {
-        --size: 90px;
-        width: var(--size);
-        height: var(--size);
-
-        margin-right: 30px;
-    }
-    .introduce {
-        .name {
-            font-size: 16px;
-            font-family: 'Cinzel', serif;
-            color: #140c40;
-            margin-top: 0;
-            font-style: normal;
-            font-weight: 500;
-            text-transform: uppercase;
-        }
-        .des {
-            margin-bottom: 0;
-            font-size: 15px;
-
-            line-height: 1.4;
-            font-family: 'Poppins', sans-serif;
-            color: #646d77;
-        }
+    border-top: 1px solid #ccc;
+    .quantity {
+        margin-bottom: 35px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: 18px;
     }
 }

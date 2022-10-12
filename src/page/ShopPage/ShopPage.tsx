@@ -27,6 +27,7 @@ const ShopPage = (props: Props) => {
                             text: 'Shop',
                         },
                     ]}
+                    className={cx('mt-header')}
                 />
                 <div className={cx('category-area')}>
                     <div className={cx('container')}>

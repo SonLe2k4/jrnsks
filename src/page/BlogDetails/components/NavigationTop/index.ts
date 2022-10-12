@@ -1,3 +1,3 @@
-import NavigationTop from "./navigationTop";
+import NavigationTop from './navigationTop';
 
-export default NavigationTop
+export default NavigationTop;

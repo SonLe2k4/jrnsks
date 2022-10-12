@@ -31,12 +31,15 @@ const NavItem = (props: Props) => {
                     {type === 'prev' ? <AiOutlineArrowLeft /> : type === 'next' ? <AiOutlineArrowRight /> : ''}
                 </div>
             </a>
-            <div className={cx('text-area')} style={
-                (type === 'next' && {
-                    alignItems: 'flex-end',
-                }) ||
-                {}
-            }>
+            <div
+                className={cx('text-area')}
+                style={
+                    (type === 'next' && {
+                        alignItems: 'flex-end',
+                    }) ||
+                    {}
+                }
+            >
                 <span>{type === 'prev' ? 'Prev Post' : type === 'next' ? 'Next Post' : ''}</span>
                 <a href={data?.link}>{data?.title}</a>
             </div>

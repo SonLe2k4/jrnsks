@@ -8,42 +8,42 @@ const Tag = (props: Props) => {
     const listTag = [
         {
             id: v4(),
-            link: '/',
+            link: '#',
             text: 'project',
         },
         {
             id: v4(),
-            link: '/',
+            link: '#',
             text: 'love',
         },
         {
             id: v4(),
-            link: '/',
+            link: '#',
             text: 'technology',
         },
         {
             id: v4(),
-            link: '/',
+            link: '#',
             text: 'travel',
         },
         {
             id: v4(),
-            link: '/',
+            link: '#',
             text: 'restaurant',
         },
         {
             id: v4(),
-            link: '/',
+            link: '#',
             text: 'life style',
         },
         {
             id: v4(),
-            link: '/',
+            link: '#',
             text: 'design',
         },
         {
             id: v4(),
-            link: '/',
+            link: '#',
             text: 'illustration',
         },
     ];

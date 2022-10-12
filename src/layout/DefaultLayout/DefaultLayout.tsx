@@ -20,10 +20,6 @@ const DefaultLayout = (props: PropsWithChildren<IDefaultLayoutProps>) => {
         const handleEventScroll = () => {
             const winScroll = Math.floor(document.body.scrollTop || document.documentElement.scrollTop);
 
-            // const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-
-            // const scrolled = `${Math.floor((winScroll / height) * 100)}`;
-
             if (winScroll > 1) {
                 setIsFix(true);
             } else if (winScroll === 0) {

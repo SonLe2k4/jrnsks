@@ -30,7 +30,7 @@ const listMenu: IItemMenu[] = [
                 text: 'Blog Details',
             },
             {
-                path: '/',
+                path: '/product-details',
                 text: 'Product Details',
             },
         ],

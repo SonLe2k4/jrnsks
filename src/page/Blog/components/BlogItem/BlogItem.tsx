@@ -1,4 +1,5 @@
 import classNames from 'classnames/bind';
+import { Link } from 'react-router-dom';
 import AreaLink from '../../../../components/common/AreaLink';
 
 import style from './style.module.scss';
@@ -47,7 +48,7 @@ const BlogItem = (props: Props) => {
                 </div>
             </div>
             <div className={cx('info-area')}>
-                <a href='/'>{data.info.title}</a>
+                <Link to={'/blog-details'}>{data.info.title}</Link>
                 <p>{data.info.des}</p>
                 <AreaLink
                     data={{

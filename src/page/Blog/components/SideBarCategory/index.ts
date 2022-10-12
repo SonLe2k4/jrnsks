@@ -1,3 +1,3 @@
-import SideBarCategory from "./SideBarCategory";
+import SideBarCategory from './SideBarCategory';
 
-export default SideBarCategory
+export default SideBarCategory;

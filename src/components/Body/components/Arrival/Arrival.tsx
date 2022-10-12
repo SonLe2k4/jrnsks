@@ -32,7 +32,7 @@ const Arrival = (props: IArrivalProps) => {
             {
                 id: uuidv4(),
                 thumb: image.arrival.image_1,
-                link: '/',
+                link: '#',
                 title: 'Knitted Jumper',
                 rating: [
                     { id: uuidv4(), comp: <AiFillStar /> },
@@ -45,7 +45,7 @@ const Arrival = (props: IArrivalProps) => {
             {
                 id: uuidv4(),
                 thumb: image.arrival.image_2,
-                link: '/',
+                link: '#',
                 title: 'Knitted Jumper',
                 rating: [
                     { id: uuidv4(), comp: <AiFillStar /> },
@@ -57,7 +57,7 @@ const Arrival = (props: IArrivalProps) => {
             {
                 id: uuidv4(),
                 thumb: image.arrival.image_3,
-                link: '/',
+                link: '#',
                 title: 'Knitted Jumper',
                 rating: [
                     { id: uuidv4(), comp: <AiFillStar /> },
@@ -71,7 +71,7 @@ const Arrival = (props: IArrivalProps) => {
             {
                 id: uuidv4(),
                 thumb: image.arrival.image_4,
-                link: '/',
+                link: '#',
                 title: 'Knitted Jumper',
                 rating: [
                     { id: uuidv4(), comp: <AiFillStar /> },
@@ -84,7 +84,7 @@ const Arrival = (props: IArrivalProps) => {
             {
                 id: uuidv4(),
                 thumb: image.arrival.image_5,
-                link: '/',
+                link: '#',
                 title: 'Knitted Jumper',
                 rating: [
                     { id: uuidv4(), comp: <AiFillStar /> },
@@ -96,7 +96,7 @@ const Arrival = (props: IArrivalProps) => {
             {
                 id: uuidv4(),
                 thumb: image.arrival.image_6,
-                link: '/',
+                link: '#',
                 title: 'Knitted Jumper',
                 rating: [
                     { id: uuidv4(), comp: <AiFillStar /> },
@@ -110,7 +110,7 @@ const Arrival = (props: IArrivalProps) => {
             {
                 id: uuidv4(),
                 thumb: image.arrival.image_7,
-                link: '/',
+                link: '#',
                 title: 'Knitted Jumper',
                 rating: [
                     { id: uuidv4(), comp: <AiFillStar /> },
@@ -123,7 +123,7 @@ const Arrival = (props: IArrivalProps) => {
             {
                 id: uuidv4(),
                 thumb: image.arrival.image_8,
-                link: '/',
+                link: '#',
                 title: 'Knitted Jumper',
                 rating: [
                     { id: uuidv4(), comp: <AiFillStar /> },

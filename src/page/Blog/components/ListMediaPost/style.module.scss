@@ -24,14 +24,13 @@
             padding-left: 20px;
 
             .title {
-
                 font-size: 16px;
                 line-height: 20px;
                 margin-bottom: 6px;
-                background: -webkit-linear-gradient(45deg, #00DBDE 0%, #FC00FF 100%);
+                background: -webkit-linear-gradient(45deg, #00dbde 0%, #fc00ff 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-                
+
                 text-transform: uppercase;
                 &:hover {
                     transform: translate(2px, -2px);

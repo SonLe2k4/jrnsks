@@ -44,7 +44,7 @@ const WrapperFooter = (props: IWrapperFooterProps) => {
                     Copyright ©{new Date().getFullYear()} All rights reserved | This template is made with
                     <AiFillHeart className={cx('icon')} />
                     by
-                    <a href={'/'}>SonLe</a>
+                    <a href={'#'}>SonLe</a>
                 </p>
             </div>
         </div>

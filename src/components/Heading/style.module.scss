@@ -14,6 +14,22 @@
 
     .header-right {
         height: 40px;
+        .wrapper-social-search {
+            margin-right: 10px;
+            .ll {
+                &.isSearchDisplay {
+                    transform: translateY(-50%);
+                }
+                transition: all 0.3s linear;
+            }
+            width: 250px;
+            height: 40px;
+            overflow: hidden;
+            .input-search {
+                margin-top: 10px;
+                height: 50px;
+            }
+        }
     }
 
     .header-social {
@@ -34,6 +50,7 @@
 
         .icon {
             transition: all 0.3s linear;
+            font-size: 14px;
         }
     }
     .header-search {

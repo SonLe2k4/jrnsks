@@ -6,7 +6,9 @@ import Item from './Item';
 import { IItemProps } from './Item/Item';
 import style from './style.module.scss';
 
-interface IPopularProductProps {}
+interface IPopularProductProps {
+    className?: string;
+}
 const cx = classNames.bind(style);
 
 const PopularProduct = (props: IPopularProductProps) => {
@@ -16,13 +18,15 @@ const PopularProduct = (props: IPopularProductProps) => {
         setListPopularProduct([
             {
                 id: v4(),
-                title: 'Lorem ipsum dolor sit. Popular product 1 ',
+                title: `Established fact that by the
+                readable content 1`,
                 src: image.popularProduct.img_1,
                 textBtn: 'Read more',
             },
             {
                 id: v4(),
-                title: 'Lorem ipsum dolor sit. Popular product 2 ',
+                title: `Established fact that by the
+                readable content 2`,
                 src: image.popularProduct.img_2,
                 textBtn: 'Read more',
             },
@@ -39,7 +43,7 @@ const PopularProduct = (props: IPopularProductProps) => {
         );
     }, [listPopularProduct]);
 
-    return <div className={cx('wrapper-popular-product')}>{renderPopularProductElm()}</div>;
+    return <div className={cx('wrapper-popular-product', props.className)}>{renderPopularProductElm()}</div>;
 };
 
 export default PopularProduct;

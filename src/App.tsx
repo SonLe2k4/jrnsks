@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import routes from './routes/routes';
 import classNames from 'classnames/bind';
 import style from './App.module.scss';
+import GotoTop from './components/common/GotoTop';
 const cx = classNames.bind(style);
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     return (
         <div className={cx('App')}>
             <Routes>{renderRoutes()}</Routes>
+            <GotoTop />
         </div>
     );
 }

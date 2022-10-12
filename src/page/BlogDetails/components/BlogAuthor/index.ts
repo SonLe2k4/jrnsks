@@ -1,3 +1,3 @@
-import BlogAuthor from "./BlogAuthor";
+import BlogAuthor from './BlogAuthor';
 
-export default BlogAuthor
+export default BlogAuthor;

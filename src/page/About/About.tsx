@@ -45,7 +45,7 @@ const About = (props: Props) => {
                     listNotificationPage={[
                         {
                             id: v4(),
-                            link: '/',
+                            link: '#',
                             text: 'Home',
                         },
                         {

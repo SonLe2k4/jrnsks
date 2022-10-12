@@ -8,6 +8,7 @@ type Props = {
     iconColor?: string;
     iconColorHover?: string;
     backgroundHover?: string;
+    className?: string;
 };
 const cx = classNames.bind(style);
 const Social = (props: Props) => {
@@ -30,7 +31,7 @@ const Social = (props: Props) => {
             </a>
         ));
     };
-    return <div className={cx('social', 'flex_center')}>{renderSocial(listSocial)}</div>;
+    return <div className={cx('social', 'flex_center', props.className)}>{renderSocial(listSocial)}</div>;
 };
 
 export default Social;

@@ -1,7 +1,9 @@
+import classNames from 'classnames/bind';
 import React, { useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import style from './style.module.scss';
 
+const cx = classNames.bind(style);
 interface IListNotificationPage {
     id: string;
     text: string;
@@ -10,6 +12,7 @@ interface IListNotificationPage {
 
 type Props = {
     listNotificationPage: IListNotificationPage[];
+    className?: string;
 };
 
 const NotificationPage = (props: Props) => {
@@ -22,7 +25,7 @@ const NotificationPage = (props: Props) => {
         ));
     }, [listNotificationPage]);
     return (
-        <div className={style['notification-page']}>
+        <div className={cx('notification-page', props.className)}>
             <ul>{renderListNotificationPage()}</ul>
         </div>
     );

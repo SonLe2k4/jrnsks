@@ -11,7 +11,7 @@ const navigationArea = (props: Props) => {
             <NavItem
                 type='prev'
                 data={{
-                    link: '/',
+                    link: '#',
                     thumbSrc: image.blogDetails['60x60'].img_1,
                     title: 'Space The Final Frontier',
                 }}
@@ -20,7 +20,7 @@ const navigationArea = (props: Props) => {
             <NavItem
                 type='next'
                 data={{
-                    link: '/',
+                    link: '#',
                     thumbSrc: image.blogDetails['60x60'].img_2,
                     title: 'Telescopes 101',
                 }}

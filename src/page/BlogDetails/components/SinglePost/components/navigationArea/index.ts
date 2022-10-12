@@ -1,3 +1,3 @@
-import NavigationArea from "./navigationArea";
+import NavigationArea from './navigationArea';
 
-export default NavigationArea
+export default NavigationArea;

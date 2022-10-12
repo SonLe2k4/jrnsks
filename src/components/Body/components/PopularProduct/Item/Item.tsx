@@ -19,7 +19,7 @@ const Item = (props: IItemProps) => {
             <img src={src} alt='' />
             <div className={cx('detail-description')}>
                 <a href={link || '#'}>{title}</a>
-                <Button to='/' primary={true} hoverEffect={1}>
+                <Button to='#' primary={true} hoverEffect={1}>
                     {textBtn}
                 </Button>
             </div>

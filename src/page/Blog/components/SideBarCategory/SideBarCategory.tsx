@@ -17,37 +17,37 @@ const SideBarCategory = (props: Props) => {
             id: v4(),
             title: 'Resaurant food',
             quantity: '37',
-            link: '/',
+            link: '#',
         },
         {
             id: v4(),
             title: 'Travel news',
             quantity: '10',
-            link: '/',
+            link: '#',
         },
         {
             id: v4(),
             title: 'Modern technology',
             quantity: '3',
-            link: '/',
+            link: '#',
         },
         {
             id: v4(),
             title: 'MProduct',
             quantity: '11',
-            link: '/',
+            link: '#',
         },
         {
             id: v4(),
             title: 'Inspiration',
             quantity: '21',
-            link: '/',
+            link: '#',
         },
         {
             id: v4(),
             title: 'Health Care',
             quantity: '9',
-            link: '/',
+            link: '#',
         },
     ];
 

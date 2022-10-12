@@ -1,3 +1,3 @@
-import ListMediaPost from "./ListMediaPost";
+import ListMediaPost from './ListMediaPost';
 
-export default ListMediaPost
+export default ListMediaPost;
