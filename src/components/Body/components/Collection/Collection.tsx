@@ -24,7 +24,9 @@ const Collection = (props: ICollectionProps) => {
                 text_btn={'about us'}
                 hiddenControl={true}
                 noChangeBackgroundImage={true}
-                listImageSlider={[{ title: 'collection houses our first-ever', src: image.collection.image_1 }]}
+                listImageSlider={[
+                    { title: 'collection houses our first-ever', src: image.collection.image_1, link: '/about' },
+                ]}
             />
         </div>
     );

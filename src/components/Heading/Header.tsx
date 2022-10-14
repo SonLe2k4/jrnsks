@@ -51,7 +51,7 @@ const Header = (props: IHeaderProps) => {
                                 <div className={cx('icon')}>
                                     <BsCart />
                                 </div>
-                                <span className={cx('quantity')}>0</span>
+                                <span className={cx('quantity')}>99</span>
                             </li>
                         </ul>
                     </div>

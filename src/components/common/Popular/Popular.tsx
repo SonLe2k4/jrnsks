@@ -7,6 +7,7 @@ import { useCallback, useMemo } from 'react';
 
 interface IPopularProps {}
 interface IListPopular {
+    link: string;
     id: string;
     src: string;
     title: string;
@@ -19,21 +20,25 @@ const Popular = (props: IPopularProps) => {
         return [
             {
                 id: uuidv4(),
+                link: '/shop',
                 title: 'glasses',
                 src: image.popular.image_1,
             },
             {
                 id: uuidv4(),
+                link: '/shop',
                 title: 'watches',
                 src: image.popular.image_2,
             },
             {
                 id: uuidv4(),
+                link: '/shop',
                 title: 'jackets',
                 src: image.popular.image_3,
             },
             {
                 id: uuidv4(),
+                link: '/shop',
                 title: 'clothes',
                 src: image.popular.image_4,
             },
@@ -47,7 +52,7 @@ const Popular = (props: IPopularProps) => {
                     <img src={item.src} alt='' />
 
                     <div className={cx('navigate')}>
-                        <Button primary={true} hoverEffect={1}>
+                        <Button to={item.link} primary={true} hoverEffect={1}>
                             Shop now
                         </Button>
                     </div>
