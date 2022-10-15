@@ -6,8 +6,11 @@
         display: flex;
         align-items: center;
         width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
 
         .item-service {
+            min-width: 230px;
             width: 25%;
             padding: 0 15px;
             .wrapper-icon {
@@ -52,11 +55,11 @@
         transform: translateY(-50%);
     }
     .left {
-        left: -20px;
+        left: 0px;
     }
 
     .right {
-        right: -20px;
+        right: 0px;
     }
     .left,
     .right {

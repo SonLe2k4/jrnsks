@@ -9,6 +9,15 @@
 
         margin: 0 -6px;
         .wrapper-item {
+            @media (max-width: 1167px) {
+                width: calc(100% / 3);
+            }
+            @media (max-width: 768px) {
+                width: 50%;
+            }
+            @media (max-width: 548px) {
+                width: 100%;
+            }
             width: 25%;
             padding: 6px;
             .item {
@@ -28,6 +37,7 @@
                     top: calc(50% - 10px);
                     opacity: 0;
                     pointer-events: none;
+                    min-width: 157px;
 
                     left: 50%;
                     position: absolute;

@@ -13,7 +13,7 @@
     margin: auto;
 
     width: var(--width-slider);
-    min-height: 900px;
+    min-height: 80vh;
 
     background-image: url(../../static/image/slider/img-1.png);
     background-repeat: no-repeat;
@@ -60,6 +60,12 @@
                 pointer-events: none;
 
                 transition: all 0.7s linear;
+
+                @media (max-width: 548px) {
+                    font-size: 41px;
+                    line-height: 1.2;
+                    margin-bottom: 20px;
+                }
             }
 
             .wrapper_button {

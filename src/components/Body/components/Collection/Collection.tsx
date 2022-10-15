@@ -21,6 +21,7 @@ const Collection = (props: ICollectionProps) => {
                     fontWeight: '500',
                     fontFamily: '"Cinzel",serif',
                 }}
+                classNameH1={cx('hero-h1')}
                 text_btn={'about us'}
                 hiddenControl={true}
                 noChangeBackgroundImage={true}

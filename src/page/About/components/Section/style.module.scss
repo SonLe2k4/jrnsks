@@ -18,6 +18,10 @@
             text-transform: uppercase;
             font-family: 'Cinzel', serif;
             color: #140c40;
+
+            @media (max-width: 575px) {
+                font-size: 35px;
+            }
         }
         > p {
             color: #646d77;

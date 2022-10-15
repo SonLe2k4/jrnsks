@@ -12,6 +12,7 @@ interface ISliderProps {
     listImageSlider?: IListBrSlider[];
     stylingTitle?: ICssProperties;
     text_btn?: string;
+    classNameH1?: string;
     hiddenControl?: boolean;
     noChangeBackgroundImage?: boolean;
 }
@@ -111,7 +112,9 @@ const Slider = (props: ISliderProps) => {
                             </div>
                         )}
                         <div className={cx('hero_caption')}>
-                            <h1 style={stylingTitle}>{listBrSlider[indexImgSlider].title || ''}</h1>
+                            <h1 style={stylingTitle} className={cx(props.classNameH1)}>
+                                {listBrSlider[indexImgSlider].title || ''}
+                            </h1>
                             <div className={cx('wrapper_button')}>
                                 <Button primary={true} hoverEffect={1} to={listBrSlider[indexImgSlider].link || '#'}>
                                     {text_btn || 'show more'}

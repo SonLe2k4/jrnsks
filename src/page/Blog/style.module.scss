@@ -6,10 +6,15 @@
         max-width: 1200px;
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
+
         .left,
         .right {
             width: 100%;
             padding: 0 15px;
+            @media (max-width: 968px) {
+                max-width: 100% !important;
+            }
         }
         .left {
             max-width: calc((100% / 3) * 2);

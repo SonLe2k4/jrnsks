@@ -6,7 +6,7 @@ interface ILogoProps {}
 
 const Logo = (props: ILogoProps) => {
     return (
-        <Link to={'/'}>
+        <Link to={'/'} className={style['link']}>
             <div className={style['logo-wrapper']}>
                 <img src={image.logo} alt='logo' />
             </div>

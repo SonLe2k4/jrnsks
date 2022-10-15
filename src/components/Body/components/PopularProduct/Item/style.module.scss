@@ -1,8 +1,11 @@
 .wrapper-item {
     position: relative;
-    margin: 0 15px;
-    width: 50%;
+    width: calc(50% - 10px);
     overflow: hidden;
+    @media (max-width: 548px) {
+        width: 100%;
+        margin: auto;
+    }
     &:hover {
         > img {
             transform: scale(1.1);
@@ -26,6 +29,12 @@
 
             font-weight: 400;
             color: #fff;
+
+            @media (max-width: 548px) {
+                font-size: 19px;
+                line-height: 25px;
+                margin-bottom: 13px;
+            }
         }
     }
     img {

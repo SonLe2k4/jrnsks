@@ -7,11 +7,14 @@
     .footer-area {
         color: #fff;
         display: flex;
+        flex-wrap: wrap;
         align-items: flex-start;
         padding: 100px 10px 50px;
         .footer-caption {
             padding: 0 20px;
-            width: 25%;
+
+            width: calc(100% / 5);
+            min-width: 235px;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
@@ -22,6 +25,7 @@
                     margin-bottom: 40px;
                     font-weight: 500;
                     font-family: 'Poppins', sans-serif;
+                    color: #fff;
                 }
 
                 > ul {
@@ -64,7 +68,11 @@
         align-items: center;
         justify-content: center;
 
-        padding: 33px 0;
+        padding-bottom: 20px;
+        > p {
+            padding: 0 20px;
+            text-align: center;
+        }
         p,
         a {
             color: #c2c5db;

@@ -3,6 +3,10 @@
     bottom: 40px;
     right: 40px;
 
+    @media (max-width: 575px) {
+        bottom: 25px;
+        right: 15px;
+    }
     border-radius: 50%;
     border: none;
 
