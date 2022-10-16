@@ -26,7 +26,7 @@ interface IComps {
     comp: JSX.Element;
 }
 
-const BlogPage = (props: Props) => {
+const BlogDetailsPage = (props: Props) => {
     const comps: IComps[] = [
         { id: v4(), comp: <SearchArea /> },
         { id: v4(), title: 'Category', comp: <SideBarCategory /> },
@@ -80,4 +80,4 @@ const BlogPage = (props: Props) => {
     );
 };
 
-export default BlogPage;
+export default BlogDetailsPage;

@@ -7,9 +7,13 @@
         margin: auto;
         max-width: 1200px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         .left,
         .right {
+            @media (max-width: 768px) {
+                max-width: 100% !important;
+            }
             width: 100%;
             padding: 0 15px;
         }
@@ -17,6 +21,7 @@
             max-width: calc((100% / 3) * 2);
         }
         .right {
+            min-width: 300px;
             max-width: calc((100% / 3) * 1);
         }
     }

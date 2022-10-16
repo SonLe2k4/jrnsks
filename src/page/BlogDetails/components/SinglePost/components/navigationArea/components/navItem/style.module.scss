@@ -10,6 +10,7 @@
         --size: 60px;
         width: var(--size);
         height: var(--size);
+        min-width: var(--size);
         overflow: hidden;
 
         > img {
