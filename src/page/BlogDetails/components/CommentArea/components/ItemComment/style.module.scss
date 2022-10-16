@@ -2,7 +2,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-bottom: 48px;
+    @media (max-width: 575px) {
+        flex: auto;
+        width: 100%;
+    }
     .avatar {
         margin-right: 20px;
         --size: 70px;
@@ -10,6 +15,9 @@
         height: var(--size);
     }
     .text-area {
+        @media (max-width: 575px) {
+            margin-top: 20px;
+        }
         flex: 1;
         .top {
             width: 100%;
